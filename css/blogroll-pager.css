@@ -1,0 +1,23 @@
+.widget_blogroll-pager {
+	position: relative;
+}
+.widget_blogroll-pager ul {
+	list-style-position: inside;
+	margin: 0;
+}
+.blogroll-pager-next, .blogroll-pager-prev {
+	position: absolute;
+	top: 40%;
+	background: url(../images/arrows-small.png) no-repeat;
+	display: block;
+	width: 20px;height: 47px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.blogroll-pager-next {
+	right: 0;
+}
+.blogroll-pager-prev {
+	left: -20px;
+	background-position: -32px 0;
+}
